@@ -1,0 +1,74 @@
+.header {
+    height: 550px;
+    width: 100%;
+    background-image: url('../Images/angkorHeader.jpg');
+    background-size: cover;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(49, 49, 49, 0.5);
+}
+
+.navbar a {
+    color: white;
+    float: right;
+}
+
+.navbar .nav-links ul li {
+    margin: 0 19px;
+    display: inline-block;
+}
+
+.nav-links a:hover {
+    color: rgb(255, 205, 43);
+}
+
+.navbar li a {
+    font-family: 'Fredoka', sans-serif;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.logo-container {
+    display: flex;
+    width: 250px;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.logo-container {
+    color: #FFF;
+    font-family: 'Freehand', cursive;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.every-day-is {
+    margin: 0;
+    color: #FFF;
+}
+
+.every-day-is-container {
+    position: absolute;
+    top: 200px;
+    left: calc(50% - 463px);
+    font-size: 48px;
+    font-family: 'Hanuman', serif;
+    text-align: center;
+    display: inline-block;
+    width: 958px;
+    height: 169px;
+} 
